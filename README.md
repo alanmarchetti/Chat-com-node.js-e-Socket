@@ -7,6 +7,7 @@ Um simples chat para troca de mensagens de usuário. Este projeto foi desenvolvi
 ## Tecnologias utilziadas
 - Node.js
 - Socket
+- Javascript
 - Express
 - HTTP
 <hr>
