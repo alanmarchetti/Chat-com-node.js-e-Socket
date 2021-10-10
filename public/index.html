@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>ChatNode.js</title>
+</head>
+
+<body>
+    <div class="page" id="login-page">
+        <h2>Qual seu nome?</h2>
+        <input type="text" name="login" id="loginNameInput">
+    </div>
+    <div class="page" id="chat-page">
+        <div class="chat-area">
+            <ul class="chat-list">
+            </ul>
+            <ul class="user-list">
+            </ul>
+        </div>
+        <div class="chat-input">
+            <input type="text" name="login" id="chatTextInput" placeholder="Digite sua mensagem (E APERTE 'ENTER')">
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script/main.js"></script>
+</body>
+
+</html>
